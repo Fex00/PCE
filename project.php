@@ -133,53 +133,24 @@ if($_POST['username']=="chatbot" && $_POST['password']=="chatbot"){ ?>
                 <table id="example" class="display" style="width:50%">
                 <thead>
                     <tr>
-          
+      
                     <th>Nome do Ficheiro</th>
                     </tr>
                 </thead>
                     <tbody>
                         <tr>
-                        <td><a target="_blank" href="Files/Relatório de Desempenho I.pdf">.pdf | Relatório de Desempenho I</a></td>
+                        <td><a target="_blank" href="Files/Relatório Final ITChatbot.pdf">.pdf | Relatório Final</a></td>
                         </tr>
                         <tr>
-                        <td><a target="_blank" href="Files/Relatório de Desempenho II.pdf">.pdf | Relatório de Desempenho II</a></td>
-                        </tr>
-                        <tr>     
-                        <td><a target="_blank" href="Files/Relatório de Desempenho III.pdf">.pdf | Relatório de Desempenho III</a></td>
-                        </tr>
-                        <tr>
-                        <td><a target="_blank" href="Files/GANTT Sofsolutions.pdf">.pdf | GANTT Sofsolutions</a></td>
+                        <td><a target="_blank" href="Files/GANTT ITChatbot.pdf">.pdf | GANTT ITChatbot</a></td>
                         </tr>
                         <tr>  
-                        <td><a target="_blank" href="Files/WBS Sofsolutions.pdf">.pdf | WBS Sofsolutions</a></td>
+                        <td><a target="_blank" href="Files/WBS ITChatbot.pdf">.pdf | WBS ITChatbot</a></td>
                         </tr>
-                        <tr>
-                        <td><a target="_blank" href="Files/Relatorio_Especificacao_Requisitos.pdf">.pdf | Relatorio_Especificacao_Requisitos</a></td>
+                        <tr>  
+                        <td><a target="_blank" href="Files/FLUXOGRAMA ITChatbot.pdf">.pdf | FLUXOGRAMA ITChatbot</a></td>
                         </tr>
-                        <tr>
-                        <td><a target="_blank" href="Files/Relatório de Testes de Aceitação.pdf">.pdf | Relatório de Testes de Aceitação</a></td>
-                        </tr>
-                        <tr>
-                        <td><a target="_blank" href="Files/CR_CheckList I.pdf">.pdf | CR_CheckList I</a></td>
-                        </tr>
-                        <tr>
-                        <td><a target="_blank" href="Files/CR_CheckList II.pdf">.pdf | CR_CheckList II</a></td>
-                        </tr>
-                        <tr>
-                        <td><a target="_blank" href="Files/Manual de Instalação (Easy to Use).pdf">.pdf | Manual de Instalação</a></td>
-                        </tr>
-                        <tr>
-                        <td><a target="_blank" href="Files/SoftSolutions MSDGM.zip">.zip | Instalação da Aplicação</a></td>
-                        </tr>
-                        <tr> 
-                        <td><a target="_blank" href="Files/Artigo Científico.pdf">.pdf | Artigo Científico</a></td>
-                        </tr>
-                        <tr> 
-                        <td><a target="_blank" href="Files/Manual de Utilização.pdf">.pdf | Manual de Utilização</a></td>
-                        </tr>
-                        <tr>
-                        <td><a target="_blank" href="Files/Relatório Final SoftSolutions.pdf">.pdf | Relatório Final</a></td>
-                        </tr>
+
                     </tbody>
                 </table>
             </div> <!-- end of row -->
@@ -199,13 +170,12 @@ if($_POST['username']=="chatbot" && $_POST['password']=="chatbot"){ ?>
                 </div> <!-- end of col -->
                 <table id="atas" class="display" style="width:50%">
                 <thead>
-                    <tr>
-          
+                    <tr>   
                     <th>Nome do Ficheiro</th>
                     </tr>
                 </thead>
                     <tbody>
-                        <?php for($i=1; $i<=15; $i++){ 
+                        <?php for($i=1; $i<=10; $i++){ 
                             if($i<10) $a="0".$i;
                             else $a=$i;
                             ?>
